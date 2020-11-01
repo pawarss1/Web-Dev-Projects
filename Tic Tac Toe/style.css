@@ -1,0 +1,26 @@
+.imageCross {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/LetterX.svg/91px-LetterX.svg.png');
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+}
+.buttonClass {
+  text-align: center;
+}
+.imageCircle {
+  background-image: url('https://www.pngitem.com/pimgs/m/501-5018182_thumb-image-tic-tac-toe-circle-png-transparent.png');
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+}
+.containerGrid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
